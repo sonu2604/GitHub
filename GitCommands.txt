@@ -13,4 +13,8 @@ git log -n 3			#gives recent 3 commit logs
 
 
 
-some unecessary text
+git branch			#shows all the available branches
+git branch <branchName>		#creates new branch
+git checkout <branchName>	#switches to existing branch
+git checkout -b <branchName>	#creates new branch and switches to it
+
