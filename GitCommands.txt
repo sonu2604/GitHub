@@ -1,0 +1,5 @@
+git init			#creates empty git repo
+git add <fileName>		#adds file to staging area, ready to be commited
+git add .			#adds all files to staging area
+git commit -m "Commit Message"	#commits ll changes to git 
+
