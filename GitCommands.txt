@@ -4,8 +4,10 @@ git add .			#adds all files to staging area
 git restore --staged		#to unstage
 git rm --cached <fileName>	#to unstage file
 git commit -m "Commit Message"	#commits ll changes to git 
+echo (fileName) >> .gitignore	#to ignore a file from git radar
 
-
+Log
+--------
 git log				#shows log of the commits made - author, date, time, commit hashcode etc
 git log --oneline		#one line logs
 git log --name-only		#gives file names as well along with above details
@@ -13,4 +15,49 @@ git log -n 3			#gives recent 3 commit logs
 
 
 
-some unecessary text
+Config
+--------
+git config --global user.name "SonuBS"
+git config --global user.email "sonubs@gmail.com"
+
+
+Clone
+--------
+git clone <link>		#cloning repository on local machine
+git status			#displays status of files
+
+
+Remote repo
+--------
+git remote add origin <link>	#initializing remote repository
+git remote -v 			#to verify remote
+git push origin main		#push code to remote repo from local
+git pull origin main 		#pull code from remote repo to local
+
+
+Merging
+--------
+git merge <branchName>		#to merge 2 branches
+git diff <branchMerge>		#to compare files
+
+
+Undo changes
+--------
+#staged changes
+git reset <fileName>
+git reset
+
+#commited changes(for many commit)
+git reset <commit hash>
+git reset --hard <commit hash>
+
+#commited changes(for single commit)
+git reset HEAD~1
+
+
+
+
+
+workflow
+--------
+clone -> changes -> add -> commit -> push
