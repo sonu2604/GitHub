@@ -12,7 +12,8 @@ git log --name-only		#gives file names as well along with above details
 git log -n 3			#gives recent 3 commit logs
 
 
-
+Branching
+----------
 git branch			#shows all the available branches
 git branch <branchName>		#creates new branch
 git checkout <branchName>	#switches to existing branch
