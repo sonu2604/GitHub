@@ -1,6 +1,7 @@
 git init			#creates empty git repo
 git add <fileName>		#adds file to staging area, ready to be commited
 git add .			#adds all files to staging area
+git restore --staged		#to unstage
 git rm --cached <fileName>	#to unstage file
 git commit -m "Commit Message"	#commits ll changes to git 
 
@@ -10,3 +11,6 @@ git log --oneline		#one line logs
 git log --name-only		#gives file names as well along with above details
 git log -n 3			#gives recent 3 commit logs
 
+
+
+some unecessary text
